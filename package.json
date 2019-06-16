@@ -2,7 +2,7 @@
   "name": "calculator_webapp",
   "version": "1.0.0",
   "description": "A very simple calculator application that I wrote to practice basic HTML and JS.",
-  "main": "main.js",
+  "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,5 +10,5 @@
     "calculator"
   ],
   "author": "Patrick Archer (pjarcher913)",
-  "license": "ISC"
+  "license": "MIT"
 }
