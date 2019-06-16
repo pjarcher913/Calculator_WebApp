@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<script src="main.js"></script>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator Web Application</title>
+</head>
+
+<body>
+
+    <h1>
+        Calculator Web App v1.0
+    </h1>
+    <h4>
+        Created by: Patrick Archer
+        <br>
+        Last modified: 16 June 2019
+        <br>
+    </h4>
+
+    <fieldset>
+        <form>
+            <br>
+            Value #1:
+            <input id="tf_value1" type="number">
+            <br><br>
+            Value #2:
+            <input id="tf_value2" type="number">
+            <br><br>
+            <input type="radio" name="operations" id="radio_add" checked>ADD
+            <br>
+            <input type="radio" name="operations" id="radio_subtract">SUBTRACT
+            <br>
+            <input type="radio" name="operations" id="radio_multiply">MULTIPLY
+            <br>
+            <input type="radio" name="operations" id="radio_divide">DIVIDE
+            <br><br>
+            <input type="button" id="button_submit" value="SUBMIT" onclick="performCalculations()">
+            <input type="reset" id="button_reset" value="CLEAR">
+        </form>
+    </fieldset>
+
+    <br>
+    <b id="b_result"></b>
+
+</body>
+
+</html>

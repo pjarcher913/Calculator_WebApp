@@ -1,0 +1,1 @@
+A simple calculator app that I wrote to practice basic HTML and JS.

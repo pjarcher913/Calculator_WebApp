@@ -1,0 +1,14 @@
+{
+  "name": "calculator_webapp",
+  "version": "1.0.0",
+  "description": "A very simple calculator application that I wrote to practice basic HTML and JS.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "calculator"
+  ],
+  "author": "Patrick Archer (pjarcher913)",
+  "license": "ISC"
+}
